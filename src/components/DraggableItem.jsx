@@ -1,4 +1,3 @@
-import { Grip } from "lucide-react";
 import styles from "./DraggableItem.module.css";
 
 const DraggableItem = ({
@@ -30,7 +29,6 @@ const DraggableItem = ({
       onDrop={onDrop}
       className={styles.card}
     >
-      <Grip className={styles.icon} />
       <div className={styles.avatar}>{item.label.charAt(0)}</div>
       <div className={styles.label}>{item.label}</div>
     </div>
