@@ -2,12 +2,12 @@
 
 A lightweight, dependency-free implementation of a draggable list built with **React** and the native **HTML5 Drag and Drop API**. This project demonstrates how to handle complex state reordering and event propagation without external libraries.
 
-## 🚀 Features
+## Features
 * **Native API:** Uses `onDragStart`, `onDragOver`, and `onDrop` for maximum performance.
 * **State-Driven:** Logic is handled via React hooks (`useState`), ensuring the UI stays in sync with the underlying data.
 * **Optimized Rendering:** Uses unique IDs for keys to ensure smooth DOM transitions during reordering.
 
-## ⚙️ How It Works
+## How It Works
 
 This implementation leverages the **HTML5 Drag and Drop API** in coordination with React's unidirectional data flow. The process follows a specific event lifecycle:
 
@@ -31,7 +31,7 @@ To ensure a professional feel, the following CSS logic is applied:
 * **`cursor: grab`**: Provides a visual cue that the item can be picked up.
 * **`user-select: none`**: Prevents the text inside the item from being highlighted while dragging.
 
-## 🛠️ Installation and Setup
+## Installation and Setup
 
 Follow these steps to get the project running locally on your machine.
 
