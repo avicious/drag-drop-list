@@ -2,6 +2,10 @@
 
 A lightweight, dependency-free implementation of a draggable list built with **React** and the native **HTML5 Drag and Drop API**. This project demonstrates how to handle complex state reordering and event propagation without external libraries.
 
+## Live Demo
+
+**Check out the live version of this project here:** [avicious.github.io/drag-drop-list/](https://avicious.github.io/drag-drop-list/)
+
 ## Features
 * **Native API:** Uses `onDragStart`, `onDragOver`, and `onDrop` for maximum performance.
 * **State-Driven:** Logic is handled via React hooks (`useState`), ensuring the UI stays in sync with the underlying data.
